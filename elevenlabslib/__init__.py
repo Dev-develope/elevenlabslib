@@ -11,8 +11,10 @@ from .helpers import GenerationOptions, PlaybackOptions, run_ai_speech_classifie
      SFXOptions, StitchingOptions, play_audio_v2, check_api_key
 from .Project import Project, ProjectSnapshot, Chapter, ChapterSnapshot
 from .PronunciationDictionary import PronunciationDictionary, PronunciationRule, AliasRule, PhonemeRule
+from .Sixtydb import SixtydbUser, SixtydbVoice, SixtydbGenerationOptions, SixtydbChat
 
 __all__ = ["User",
            "GenerationOptions", "PlaybackOptions", "WebsocketOptions", "SFXOptions", "StitchingOptions",
-           "run_ai_speech_classifier", "save_audio_v2", "play_audio_v2", "check_api_key"
+           "run_ai_speech_classifier", "save_audio_v2", "play_audio_v2", "check_api_key",
+           "SixtydbUser", "SixtydbVoice", "SixtydbGenerationOptions", "SixtydbChat",
            ]
